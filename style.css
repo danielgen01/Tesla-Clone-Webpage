@@ -184,7 +184,7 @@ nav a{
       }
 
       html{
-        font-size: 6px;
+        font-size: 7px;
       }
 
       main{
@@ -193,15 +193,43 @@ nav a{
         flex-wrap: wrap;
       }
 
-      .buttons-first-layout{
-        padding-top: 30%;
-        margin-left: 35%;
-      }
+     
       
-      .buttons{
-          padding-top: 30%;
-          margin-left: 35%;
+     
+    #products-list{
+        display: none;
+    }
+
+    #support-list{
+        display: none;
+    }
+
+      .layout{
+        background-size: 200%;
+        width: 100%;
+        background-position: center;
+        height:60rem;
+        
+        
+      
+        
       }
+
+      .buttons{
+        padding-top: 65%;
+        margin-left: 17%;
+        display: flex;
+       
+         
+  }
+
+  .buttons-first-layout{
+    margin-top: 30%;
+    margin-left: 10%;
+    display: flex;
+   
+    
+  }
       
 
      
@@ -225,8 +253,54 @@ nav a{
     .col-s-12 {width: 100%;}
 
     html{
-        font-size: 7px;
+        font-size: 8px;
       }
+
+      main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+      .buttons-first-layout{
+        margin-top: 80%;
+        margin-left: 10%;
+        display: flex;
+       
+        
+      }
+      
+      .buttons{
+          padding-top: 30%;
+          margin-left: 15%;
+          display: flex;
+         
+           
+    }
+
+    #products-list{
+        display: none;
+    }
+
+    #support-list{
+        display: none;
+    }
+
+      .layout{
+        background-size: 100%;
+        background-position: center;
+        height: 80rem;
+        margin-top: 0%;
+        padding-top: 0%;
+       
+        
+      }
+
+      .product-h1{
+        margin-top: 0% !important;
+        padding-top: 0% !important;
+      }
+      
   
 
 }
@@ -248,9 +322,54 @@ nav a{
     .col-s-12 {width: 100%;}
 
     html{
-        font-size: 8px;
+        font-size: 10px;
       }
-  
+
+      main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+     
+      
+     
+    #products-list{
+        display: none;
+    }
+
+    #support-list{
+        display: none;
+    }
+
+      .layout{
+        background-size: 200%;
+        width: 100%;
+        background-position: center;
+        height:60rem;
+        
+        
+      
+        
+      }
+
+      .buttons{
+        padding-top: 45%;
+        margin-left: 25%;
+        display: flex;
+       
+         
+  }
+
+  .buttons-first-layout{
+    margin-top: 15%;
+    margin-left: 25%;
+    display: flex;
+   
+    
+  }
+
+      
 
 }
 
@@ -273,6 +392,52 @@ nav a{
     html{
         font-size: 9px;
       }
+
+      main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+     
+      
+     
+    #products-list{
+        display: none;
+    }
+
+    #support-list{
+        display: none;
+    }
+
+      .layout{
+        background-size: 100%;
+        width: 100%;
+        background-position: center;
+        height:60rem;
+        
+        
+      
+        
+      }
+
+      .buttons{
+        padding-top: 30%;
+        margin-left: 30%;
+        display: flex;
+       
+         
+  }
+
+  .buttons-first-layout{
+    margin-top: 0%;
+    margin-left: 30%;
+    display: flex;
+   
+    
+  }
+
+ 
   
 
 }
