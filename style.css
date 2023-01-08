@@ -1,35 +1,33 @@
+@font-face {
+    font-family: 'GothamSSM';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    src: url('../font-family/GothamSSm-Book_Web.woff2') format('woff2');
+  }
+
+
 *{
     box-sizing: border-box;
 }
 
 html{
-    font-size: 12px;
-
-  @font-face {
-    
-  
-        font-family:Open Sans;
-        font-style:normal;
-        font-weight:400;
-        font-stretch:100%;
-        src:url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2) format("woff2");
-    }
-
-   
-    
+    font-size: 11.7px;
     
 }
 
-body{
-   
-}
+
+body {
+    font-family: 'GothamSSM', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
 
 .first-layout{
-     background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/0x0/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0);
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/0x0/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position-y:50%;
-    height: 80rem;
+    background-position-y:60%;
+    height: 83rem;
 }
 
 .second-layout{
@@ -37,7 +35,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y:50%;
-    height: 80rem;
+    height: 83rem;
 
 }
 
@@ -46,7 +44,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y:50%;
-    height: 80rem;
+    height: 83rem;
 }
 
 .fourth-layout{
@@ -54,7 +52,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y:50%;
-    height: 80rem;
+    height: 83rem;
 }
 
 .fifth-layout{
@@ -62,7 +60,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y:50%;
-    height: 80rem;
+    height: 83rem;
 }
 
 .sixth-layout{
@@ -70,7 +68,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y:50%;
-    height: 80rem;
+    height: 83rem;
 }
 
 
@@ -79,10 +77,20 @@ nav{
     display: flex;
     align-items: center;
     line-height: 1.8rem;
-    margin-top: 0;
-      
+    margin-top: 0%;
+    padding-top: 0%;
     
 }
+
+nav a{
+    font-weight: 600;
+    font-size: 1.2rem !important;
+    text-shadow: 1px 1px 1px #ffffff;
+  
+}
+
+
+
 
 #logo{
     width: 14rem;
@@ -90,40 +98,52 @@ nav{
     padding: 0 0 0 2.7rem;
 }
 
+
 #products-list{
     list-style-type: none;
     display: flex;
     font-size: 2rem;
-    margin-left: 15%;
+    margin-left: 17%;
+       
     
 }
 
 #products-list a{
     padding: 1rem;
+    
+    
 }
 
 #products-list a:hover{
-    background-color: rgba(244, 244, 244, 0.65);
     cursor: pointer;
     border-radius: 0.5rem;
+    background-color: rgb(0, 0, 0, 0.15);
+    transition: 700ms;
+   
+    
 }
 
 #support-list{
     list-style-type: none;
     display: flex;
     font-size: 2rem;
-    margin-left: 10%;
+    margin-left: 27%;
+    
+    
 
 }
 
 #support-list a {
     padding: 1rem;
+    
 }
 
 #support-list a:hover{
-    background-color: rgba(244, 244, 244, 0.65);
+    background-color: rgb(0, 0, 0, 0.15);
+    transition: 700ms;
     border-radius: 0.5rem;
     cursor: pointer;
+    
 }
 
 
@@ -180,7 +200,7 @@ nav{
       }
 
       html{
-        font-size: 11px;
+        font-size: 6px;
       }
 
       main{
@@ -189,10 +209,12 @@ nav{
         flex-wrap: wrap;
       }
 
+     
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 767px){
 
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -206,12 +228,16 @@ nav{
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+
+    html{
+        font-size: 7px;
+      }
   
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px)and (max-width: 991px) {
 
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -225,12 +251,16 @@ nav{
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+
+    html{
+        font-size: 8px;
+      }
   
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px){
 
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -244,6 +274,10 @@ nav{
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+
+    html{
+        font-size: 9px;
+      }
   
 
 }
