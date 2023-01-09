@@ -58,6 +58,7 @@ body {
     background-repeat: no-repeat;
     background-position:center;
     min-height: 80rem;
+    
 }
 
 
@@ -178,6 +179,7 @@ nav a{
 .buttons-first-layout{
   padding-top: 30%;
   margin-left: 40%;
+  
 
  
   
@@ -247,14 +249,12 @@ nav a{
 }
 
 .buttons{
-    padding-top: 50%;
+    padding-top: 90%;
     margin-left: 22% !important;
 }
 
      
-.product-h1{
-    display: none;
-}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
