@@ -12,8 +12,12 @@
 }
 
 html{
-    font-size: 11px;
+    font-size: 12px;
     
+}
+
+img{
+    max-width: 100%;
 }
 
 
@@ -50,26 +54,29 @@ body {
 }
 
 .layout{
-    background-size: 100%;
+    background-size: 110%;
     background-repeat: no-repeat;
-    background-position-y:60%;
-    height: 90rem;
+    background-position:center;
+    min-height: 80rem;
 }
 
 
 nav{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     line-height: 1.8rem;
-    margin-top: 0%;
-    padding-top: 0%;
-    
+       
 }
 
 nav a{
     font-weight: 600;
-    font-size: 1.2rem !important;
+    font-size: 1.1rem ;
     text-shadow: 1px 1px 1px #ffffff;
+
+
+
+        
   
 }
 
@@ -77,8 +84,8 @@ nav a{
 
 
 #logo{
-    width: 14rem;
-    height: 100%;
+    max-width: 14rem;
+    max-height: 100%;
     padding: 0 0 0 2.7rem;
 }
 
@@ -87,7 +94,7 @@ nav a{
     list-style-type: none;
     display: flex;
     font-size: 2rem;
-    margin-left: 17%;
+ 
        
     
 }
@@ -111,7 +118,7 @@ nav a{
     list-style-type: none;
     display: flex;
     font-size: 2rem;
-    margin-left: 27%;
+    
     
     
 
@@ -136,11 +143,13 @@ nav a{
     background-color:rgba(23, 26, 32, 0.8);
     color: white;
     font-size: 1.2rem;
-    padding: 4px 24px;
-    width: 20rem;
-    height: 3.5rem;
+    padding: 1.5rem;
+    max-width: 20rem;
+    max-height: 3.5rem;
     font-weight: bold;
     border: none;
+    display: flex;
+    align-items: center;
 }
 
 .config-btn{
@@ -148,12 +157,14 @@ nav a{
     background-color:rgba(244, 244, 244, 0.65);
     color: #393c41;
     font-size: 1.2rem;
-    padding: 4px 24px;
-    width: 20rem;
-    height: 3.5rem;
+    padding: 1.5rem;
+    max-width: 20rem;
+    max-height: 3.5rem;
     font-weight: bold;
     border: none;
     margin-left: 2%;
+    display: flex;
+    align-items: center;
 }
 
 .config-btn:hover{
@@ -166,16 +177,21 @@ nav a{
 
 .buttons-first-layout{
   padding-top: 30%;
-  margin-left: 35%;
+  margin-left: 40%;
+
+ 
+  
 }
 
 .buttons{
     padding-top: 30%;
-    margin-left: 35%;
+    margin-left: 40%;
+    display: flex;
 }
 
 #menu-icon{
     display: none;
+    position: absolute;
 }
 
 
@@ -188,14 +204,19 @@ nav a{
       }
 
       html{
-        font-size: 7px;
+        font-size: 8px;
       }
 
-      main{
-        display: flex;
+      
+
+    .layout{
+        max-height: 150rem;
+        background-size: 220%;
+        background-position: center;
+        display: flex;        
         flex-direction: column;
-        flex-wrap: wrap;
-      }
+    }
+      
      
     #products-list{
         display: none;
@@ -205,40 +226,35 @@ nav a{
         display: none;
     }
 
-      .layout{
-        background-size: 200%;
-        width: 100%;
-        background-position: center;
-        height:60rem;
-        
-        
-      
-        
-      }
-
-      .buttons{
-        padding-top: 65%;
-        margin-left: 17%;
-        display: flex;
-       
-         
-  }
-
-  .buttons-first-layout{
-    margin-top: 30%;
-    margin-left: 10%;
-    display: flex;
-   
-    
-  }
 
   #menu-icon{
     display: block;
+    right: 5%;
+    
 }
-      
+
+.stock-btn{
+    font-size: 1.5rem;
+}
+
+.config-btn{
+    font-size: 1.5rem;
+}
+
+.buttons-first-layout{
+    padding-top: 90%;
+    margin-left: 20% !important;
+}
+
+.buttons{
+    padding-top: 50%;
+    margin-left: 22% !important;
+}
 
      
-
+.product-h1{
+    display: none;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -261,27 +277,7 @@ nav a{
         font-size: 8px;
       }
 
-      main{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-      }
-
-      .buttons-first-layout{
-        margin-top: 80%;
-        margin-left: 10%;
-        display: flex;
-       
-        
-      }
-      
-      .buttons{
-          padding-top: 30%;
-          margin-left: 15%;
-          display: flex;
-         
-           
-    }
+   
 
     #products-list{
         display: none;
@@ -290,21 +286,6 @@ nav a{
     #support-list{
         display: none;
     }
-
-      .layout{
-        background-size: 100%;
-        background-position: center;
-        height: 80rem;
-        margin-top: 0%;
-        padding-top: 0%;
-       
-        
-      }
-
-      .product-h1{
-        margin-top: 0% !important;
-        padding-top: 0% !important;
-      }
       
       #menu-icon{
         display: block;
@@ -333,11 +314,7 @@ nav a{
         font-size: 10px;
       }
 
-      main{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-      }
+     
 
      
       
@@ -350,32 +327,7 @@ nav a{
         display: none;
     }
 
-      .layout{
-        background-size: 200%;
-        width: 100%;
-        background-position: center;
-        height:60rem;
-        
-        
-      
-        
-      }
-
-      .buttons{
-        padding-top: 45%;
-        margin-left: 25%;
-        display: flex;
-       
-         
-  }
-
-  .buttons-first-layout{
-    margin-top: 15%;
-    margin-left: 25%;
-    display: flex;
    
-    
-  }
 
   #menu-icon{
     display: block;
@@ -402,52 +354,10 @@ nav a{
     .col-s-12 {width: 100%;}
 
     html{
-        font-size: 9px;
+        font-size:11px;
       }
 
-      main{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-      }
-
-     
-      
-     
-    #products-list{
-        display: none;
-    }
-
-    #support-list{
-        display: none;
-    }
-
-      .layout{
-        background-size: 100%;
-        width: 100%;
-        background-position: center;
-        height:60rem;
-        
-        
-      
-        
-      }
-
-      .buttons{
-        padding-top: 30%;
-        margin-left: 30%;
-        display: flex;
-       
-         
-  }
-
-  .buttons-first-layout{
-    margin-top: 0%;
-    margin-left: 30%;
-    display: flex;
-   
     
-  }
 
  
   
@@ -469,6 +379,5 @@ nav a{
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-  
 
 }
